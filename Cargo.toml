@@ -1,0 +1,27 @@
+[package]
+name = "wgpu_book"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = "0.11.1"
+cgmath = "0.18.0"
+env_logger = "0.9.0"
+futures = "0.3.21"
+gfx-hal = "0.9.0"
+image = "0.23.14"
+log = "0.4.14"
+pollster = "0.2.5"
+winit = "0.25.0"
+anyhow = "1.0.53"
+
+[[example]]
+name = "ch01_test01"
+path = "examples/ch01/test01.rs"
+
+[[example]]
+name = "ch01_test02"
+path = "examples/ch01/test02.rs"
